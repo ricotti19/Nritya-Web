@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const DanceSession = require('./models/DanceSession'); // Imports your schema
+const DanceSession = require('./models/DanceSession'); // Imports schema
 
 // 1. Setup Environment Variables
 dotenv.config();
