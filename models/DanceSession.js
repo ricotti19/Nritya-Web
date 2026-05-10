@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// This defines the structure of every "Dance Session" saved in your database
+// This defines the structure of every "Dance Session" saved in database
 const DanceSessionSchema = new mongoose.Schema({
   moveName: { 
     type: String, 
