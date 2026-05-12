@@ -82,36 +82,53 @@ function App() {
         {/* MAIN CONTENT GRID */}
         <main className="grid grid-cols-1 lg:grid-cols-12 gap-10 flex-1 overflow-y-auto pb-10 pr-2 overflow-x-hidden [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           
-          {/* LEFT COLUMN: UPLOAD */}
-          <div className="lg:col-span-5 flex flex-col gap-6">
-            <div className="bg-slate-900/40 border border-white/10 p-10 rounded-[3rem] shadow-2xl backdrop-blur-xl">
-              <h2 className="text-sm font-black mb-8 text-slate-500 uppercase tracking-widest flex items-center gap-3">
-                <span className="text-rose-600 text-lg">01</span> Upload Session
-              </h2>
-              
-              <div className="relative border-2 border-dashed border-slate-800 hover:border-rose-600/50 transition-all rounded-[2.5rem] p-12 text-center bg-black/40 group">
-                <input 
-                  type="file" 
-                  onChange={(e) => setFile(e.target.files[0])} 
-                  className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" 
-                />
-                <div className="space-y-2">
-                  <p className="text-slate-200 font-bold group-hover:text-rose-600 transition-colors">
-                    {file ? file.name : "Drop Performance Video"}
-                  </p>
-                  <p className="text-slate-600 text-[10px] uppercase tracking-widest">MP4, MOV up to 100MB</p>
-                </div>
-              </div>
-
-              <button 
-                onClick={handleUpload} 
-                disabled={loading} 
-                className="w-full mt-8 bg-rose-600 hover:bg-rose-500 text-white font-black py-6 rounded-[2rem] transition-all shadow-xl shadow-rose-900/40 active:scale-[0.98] uppercase tracking-[0.2em] text-xs"
-              >
-                {loading ? "Analyzing Form..." : "Begin Analysis"}
-              </button>
-            </div>
+      {/* LEFT COLUMN: UPLOAD */}
+    <div className="lg:col-span-5 flex flex-col gap-6">
+      <div className="bg-slate-900/40 border border-white/10 p-10 rounded-[3rem] shadow-2xl backdrop-blur-xl">
+        <h2 className="text-sm font-black mb-8 text-slate-500 uppercase tracking-widest flex items-center gap-3">
+          <span className="text-rose-600 text-lg">01</span> Upload Session
+        </h2>
+    
+    <div className="relative border-2 border-dashed border-slate-800 hover:border-rose-600/50 transition-all rounded-[2.5rem] p-4 text-center bg-black/40 group overflow-hidden min-h-[200px] flex items-center justify-center">
+      <input 
+        type="file" 
+        accept="video/*"
+        onChange={(e) => setFile(e.target.files[0])} 
+        className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-20" 
+      />
+      
+      <div className="space-y-2 w-full">
+        {file ? (
+          <div className="relative z-10 p-2">
+            <video 
+              src={URL.createObjectURL(file)} 
+              className="w-full rounded-[1.5rem] shadow-2xl border border-rose-600/20"
+              controls
+            />
+            <p className="text-[10px] text-rose-600 font-bold uppercase mt-3 tracking-widest">
+              Ready for Analysis: {file.name}
+            </p>
           </div>
+        ) : (
+          <>
+            <p className="text-slate-200 font-bold group-hover:text-rose-600 transition-colors">
+              Drop Performance Video
+            </p>
+            <p className="text-slate-600 text-[10px] uppercase tracking-widest">MP4, MOV up to 100MB</p>
+          </>
+        )}
+          </div>
+        </div>
+
+        <button 
+          onClick={handleUpload} 
+          disabled={loading} 
+          className="w-full mt-8 bg-rose-600 hover:bg-rose-500 text-white font-black py-6 rounded-[2rem] transition-all shadow-xl shadow-rose-900/40 active:scale-[0.98] uppercase tracking-[0.2em] text-xs"
+        >
+        {loading ? "Analyzing Form..." : "Begin Analysis"}
+        </button>
+      </div>
+    </div>
 
           {/* RIGHT COLUMN: RESULTS */}
           <div className="lg:col-span-7 space-y-8">
