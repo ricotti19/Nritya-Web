@@ -18,19 +18,16 @@ NrityaWeb (*in progress; frontend and backend not integrated or deployed yet (cu
 * **Backend Core:** Python (Flask) for AI/Video processing
 * **API Management:** Axios for secure multipart file handling
 
-* **Analysis (Python)**
-Flask: A separate service dedicated to processing video files and running analysis algorithms.
+### 🚀 Installation & Setup
+Clone the repo: git clone https://github.com/ricotti19/NrityaWeb.git
 
-🚀 Installation & Setup
-### Clone the repo: git clone https://github.com/ricotti19/NrityaWeb.git
+Backend: Navigate to /server, run: .\venv\Scripts\activate and then: python app.py
 
-### Backend: Navigate to /server, run: .\venv\Scripts\activate and then: python app.py
+Frontend: Navigate to /client, run npm install, then: npm install -D tailwindcss postcss autoprefixer (just in case) and then: npm run dev
 
-### Frontend: Navigate to /client, run npm install, then: npm install -D tailwindcss postcss autoprefixer (just in case) and then: npm run dev
+Environment: Create a .env file in the server directory and add your MONGO_URI.
 
-### Environment: Create a .env file in the server directory and add your MONGO_URI.
-
-## 🛠️ Setup Instructions
+### 🛠️ Setup Instructions
 
 1. Clone the repo: `git clone https://github.com/ricotti19/NrityaWeb.git`
 2. Install dependencies: `npm install`
