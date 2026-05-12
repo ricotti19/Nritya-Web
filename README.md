@@ -21,7 +21,7 @@ NrityaWeb is a web application designed to democratize classical dance education
 * **API Management:** Axios for secure multipart file handling
 
 ### 🚀 Installation & Setup
-Clone the repo: git clone https://github.com/ricotti19/NrityaWeb.git
+Clone the repo: `git clone https://github.com/ricotti19/NrityaWeb.git`
 
 Backend: Type `cd server`, run: `.\venv\Scripts\activate` and then: `python app.py`
 
