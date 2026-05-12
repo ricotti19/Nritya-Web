@@ -1,4 +1,5 @@
-🌟 Vision
+## 🌟 Vision
+
 NrityaWeb (work in progress) is a high-fidelity web application designed to democratize classical dance education. By bridging traditional art with modern AI technology, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on form, Mudras, and posture.
 ## 🛠️ Setup Instructions
 
