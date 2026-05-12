@@ -23,9 +23,9 @@ NrityaWeb is a web application designed to democratize classical dance education
 ### 🚀 Installation & Setup
 Clone the repo: git clone https://github.com/ricotti19/NrityaWeb.git
 
-Backend: Navigate to /server, run: .\venv\Scripts\activate and then: python app.py
+Backend: Type `cd server`, run: `.\venv\Scripts\activate` and then: `python app.py`
 
-Frontend: Navigate to /client, run npm install, then: npm install -D tailwindcss postcss autoprefixer (just in case) and then: npm run dev
+Frontend: Type `cd client`, run `npm install`, then: `npm install -D tailwindcss postcss autoprefixer` (if for some reason Tailwind is finnicky) and then: `npm run dev`
 
 Environment: Create a .env file in the server directory and add your MONGO_URI.
 
