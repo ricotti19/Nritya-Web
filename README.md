@@ -1,6 +1,8 @@
 ## 🌟 Vision
 
-NrityaWeb (*in progress; frontend and backend not integrated or deployed yet (currently as two separate, functioning modules)*) is a web application designed to democratize classical dance education. By bridging traditional art with modern AI technology, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on form, mudras (hand gestures), biomechanical alignment, posture, etc.
+NrityaWeb is a web application designed to democratize classical dance education. By bridging traditional art with modern AI technology, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on form, mudras (hand gestures), biomechanical alignment, posture, etc.
+
+*In progress; frontend and backend not integrated or deployed yet (currently as two separate, functioning modules)*
 
 ## 🛠️ Technical Stack
 
