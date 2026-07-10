@@ -2,7 +2,10 @@
 
 NrityaWeb is a web application designed to democratize classical dance education. By bridging traditional art with modern AI technology, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on form, mudras (hand gestures), biomechanical alignment, posture, etc.
 
-*In progress; frontend and backend not integrated or deployed yet (currently as two separate, functioning modules)*
+⚠️ Note: The custom image dataset and trained PyTorch model weights (.pt / .pth files) are excluded from this public repository due to GitHub file size limits and data privacy.
+
+Because these core assets are omitted, this repository serves as a code portfolio and architecture showcase rather than a locally runnable project. Please refer to the demo video above to see the full system in action!
+
 
 ## 🛠️ Technical Stack
 
@@ -19,17 +22,3 @@ NrityaWeb is a web application designed to democratize classical dance education
 * **Design Language:** Cinematic Dark Mode / Glassmorphism
 * **Backend Core:** Python (Flask) for AI/Video processing
 * **API Management:** Axios for secure multipart file handling
-
-### 🛠️  Installation & Setup
-Clone the repo: `git clone https://github.com/ricotti19/NrityaWeb.git`
-
-Backend: Type `cd server`, run: `.\venv\Scripts\activate` and then: `python app.py`
-
-In a separate terminal:
-
-Frontend: Type `cd client`, run `npm install`, then: `npm install -D tailwindcss postcss autoprefixer` (if for some reason Tailwind is finnicky) and then: `npm run dev`
-
-Environment: Create a .env file in the server directory and add your MONGO_URI.
-
-<img width="1872" height="1162" alt="NrityaWebScreen" src="https://github.com/user-attachments/assets/6df70d4e-f206-4c84-aa11-eff4d09748ae" />
-
