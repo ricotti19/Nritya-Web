@@ -34,7 +34,7 @@ Because these core assets are omitted, this repository serves as a code portfoli
 
 ### ⚙️ Backend (Node.js / Express)
 * **Express:** Acts as the primary API for user and session data.
-* **Mongoose:** (MongoDB): Handles data persistence (saving dance scores and timestamps).
+* **Mongoose:** (MongoDB): Handles data persistence (saving dance scores and session IDs).
 * **Dotenv:** Manages environment variables for secure database connections.
 
 * **Design Language:** Cinematic Dark Mode / Glassmorphism
