@@ -3,7 +3,7 @@
 <img width="800" height="468" alt="NrityaWeb-ezgif com-livephoto-to-gif-converter (1)" src="https://github.com/user-attachments/assets/df57085c-f750-4b57-a160-6be6499f9f6e" />
 
 ## 📖 Project Overview
-**NrityaWeb** is a full-stack web application designed to democratize classical dance education. By bridging traditional art with modern artificial intelligence, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on form, mudras (hand gestures), alignment, and posture. 
+**NrityaWeb** is a full-stack web application designed to democratize classical dance education. By bridging traditional art with modern artificial intelligence, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on alignment and posture. 
 
 The core feature leverages a computer vision pipeline to evaluate the strict geometry of the foundational **Aramandi (half-squat)** stance, prioritizing dancer longevity through automated biomechanical feedback and tracking historical practice metrics over time.
 
