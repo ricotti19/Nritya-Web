@@ -1,4 +1,4 @@
-## Link to Video Demo: https://youtu.be/OTxF3_6NjHs
+## **Link to Demo Video**: https://youtu.be/OTxF3_6NjHs
 
 ## 🌟 Vision
 
