@@ -1,3 +1,5 @@
+## Link to Video Demo: https://youtu.be/OTxF3_6NjHs
+
 ## 🌟 Vision
 
 NrityaWeb is a web application designed to democratize classical dance education. By bridging traditional art with modern AI technology, the platform aims to provide students with a "Digital Guru" that offers real-time feedback on form, mudras (hand gestures), biomechanical alignment, posture, etc.
@@ -6,6 +8,7 @@ NrityaWeb is a web application designed to democratize classical dance education
 
 Because these core assets are omitted, this repository serves as a code portfolio and architecture showcase rather than a locally runnable project. Please refer to the demo video above to see the full system in action!
 
+📷 Image Credits: Sample images (in hidden /assets) used for model testing and form comparison are sourced from public domains and Google Images for educational and demonstration purposes only.
 
 ## 🛠️ Technical Stack
 
